@@ -3,7 +3,6 @@
 A Spotify-inspired music player built with React and Vite. Features a fully functional audio player with play/pause, next/previous track, and a real-time seek bar. Album and song browsing with dynamic routing using React Router DOM. Global player state managed with React Context API, providing audio controls and playback time across all components. Styled with Tailwind CSS.
 
 ![Spotify Clone](https://github.com/user-attachments/assets/7e68ff7b-e72e-4776-a3b1-845f7c913be5)
-)
 🔗 [Live Demo](https://spotify-clone-omega-neon-91.vercel.app/)
 
 ## Features
