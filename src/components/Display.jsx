@@ -10,7 +10,7 @@ const Display = () => {
     const location = useLocation();
     const isAlbum = location.pathname.includes("album")
     const albumId = isAlbum ? location.pathname.slice(-1) : "";
-    const bgColor = albumsData ? [Number(albumId)].bgColor : "";
+    const bgColor = albumsData ? albumsData[Number(albumId)].bgColor : "";
 
     useEffect(()=> {
         if (isAlbum) {
